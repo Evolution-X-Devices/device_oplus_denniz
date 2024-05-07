@@ -33,5 +33,8 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlayDenniz \
     WifiOverlayDenniz
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay-evolution
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oplus/denniz/denniz-vendor.mk)

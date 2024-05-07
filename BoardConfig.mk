@@ -39,5 +39,8 @@ TARGET_RECOVERY_DEVICE_MODULES ?= init_denniz
 # Vibrator
 TARGET_VIBRATOR_ALT_SEQ_TYPE := true
 
+# Architecture
+TARGET_2ND_ARCH_VARIANT := armv8-2a
+
 # Call proprietary blob setup
 include vendor/oplus/denniz/BoardConfigVendor.mk
